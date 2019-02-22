@@ -1,0 +1,17 @@
+{
+    "name": "calculator-browserify-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build_specs": "tsc -p tsconfig.specs.json",
+        "bundle_specs": "browserify dist_specs/src_client/calculator.js dist_specs/src_specs/calculator_tests.js -o dist_specs/bundle.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jasmine": "^3.3.9"
+    }
+}

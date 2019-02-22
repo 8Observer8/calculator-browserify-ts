@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "dist_specs"
+    },
+    "include": [
+        "src_specs/calculator_tests.ts",
+        "src_client/calculator.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src_client"
+    ]
+}
